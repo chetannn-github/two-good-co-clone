@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Gilroy";
+    color: black;
+     --foreground: #000;
 
 }
 html,body{
-    width:100%;
-    height: 100%;
+  height: 100%;
+  width: 100%;
+    /* background: #a9c54f; */
+    /* overflow-x: hidden; */
+    padding:0px 15px;
+    
 }
 
 a{
@@ -18,6 +24,6 @@ a{
 
 #main{
     min-height: 100vh;
-    width: 100vw;
+    max-width: 100%;
     position: relative;
 }

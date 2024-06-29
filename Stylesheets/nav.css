@@ -1,12 +1,41 @@
 #nav{
     height: 120px;
-    width: 100vw;
-    position: relative;
+    width: 100%;
+    position: fixed;
     overflow: hidden;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
 
-    background: #34359b;
+    /* background: #34359b; */
+}
+
+
+
+#nav #logo {
+    height: 100%;
+    width: fit-content;
+    /* background: #ad9393; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    
+    
+}
+
+
+#nav #logo svg{
+    flex-shrink: 0;
+    position: relative;
+    height: 90%;
+    width: 100%;
+}
+
+#nav #links{
+    display: flex;
+    
+    gap: 60px;
 }
