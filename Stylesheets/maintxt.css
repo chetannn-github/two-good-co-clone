@@ -73,6 +73,7 @@ position: relative;
 
     background: #000;
     position: relative;
+    overflow: hidden;
 }
 
 #main #products .prod img{
@@ -162,7 +163,11 @@ transition:height 0.5s 0.2s ease-in-out;
     flex-shrink: 0;
     position: relative;
     /* background: #471ba4; */
+
+    overflow: hidden;
 }
+
+
 
 #product-showcase .product img{
     height: 80%;
@@ -172,7 +177,7 @@ transition:height 0.5s 0.2s ease-in-out;
 
 
     
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     
 }
@@ -207,6 +212,7 @@ transition:height 0.5s 0.2s ease-in-out;
 #impact #imgs {
     display: flex;
     gap: 30px;
+    overflow: hidden;
 }
 
 #footer{

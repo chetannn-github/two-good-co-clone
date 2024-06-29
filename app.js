@@ -16,12 +16,12 @@ tl.from("#main #video-container video" ,{
 });
 
 tl.to("#nav #logo #logo-wrapper , #nav #links a",{
-    transform: 'translateY(-127%)',
+    transform: 'translateY(-130%)',
     scrollTrigger:{
         // markers:true,
         trigger:"#txt-wrapper",
         
-        scroller:"body",
+        scroller:"#main",
         
         start:"top -5%",
         end:"top 7%",
@@ -43,7 +43,7 @@ tl.from("#product-showcase .product",{
         // markers:true,
         trigger:"#product-showcase .product",
         
-        scroller:"body",
+        scroller:"#main",
         
         start:"top 7%",
         end:"top 8%",
@@ -62,7 +62,7 @@ tl.from("#impact #imgs img",{
         // markers:true,
         trigger:"#impact",
         
-        scroller:"body",
+        scroller:"#main",
         
         start:"top 7%",
         end:"top 8%",
@@ -79,10 +79,10 @@ tl.from("#footer svg path",{
    rotate:"10deg",
 
     scrollTrigger:{
-        // markers:true,
+        markers:true,
         trigger:"#footer",
         
-        scroller:"body",
+        scroller:"#main",
         
         start:"top 4%",
         end:"top 13%",
@@ -100,7 +100,7 @@ tl.from("#footer #part2 p",{
         //  markers:true,
          trigger:"#footer",
          
-         scroller:"body",
+         scroller:"#main",
          
          start:"top 4%",
          end:"top -10%",

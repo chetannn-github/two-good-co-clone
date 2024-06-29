@@ -33,7 +33,6 @@ a{
 
 
 #main{
-    min-height: 100vh;
-    max-width: 100%;
+    
     position: relative;
 }
