@@ -1,19 +1,33 @@
 #main #txt-wrapper{
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     position: relative;
     
-padding-top:120px ;
+
+    padding-top:120px ;
+    margin-bottom: 40px;
     /* background: #000; */
+    overflow: hidden;
 
     
 }
+#main #txt-wrapper>div {
+    overflow: hidden;
+}
+
+
+
 
 
 #main #txt-wrapper h1{
-    font-size: 15.9vw;
+    
+    font-size: 15vw;
     line-height:0.95;
-    font-weight: 900;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    word-spacing: -16px;
+    /* background: #d3a3a3; */
+    
 }
 
 #main #video-container{
@@ -22,6 +36,7 @@ padding-top:120px ;
 position: relative;
     /* background: #6d2222; */
 margin-bottom: 50px;
+overflow: hidden;
     
 }
 
@@ -195,7 +210,7 @@ transition:height 0.5s 0.2s ease-in-out;
 }
 
 #footer{
-    height: 70vh;
+    height: 110vh;
     width: 100%;
     position: relative;
 

@@ -15,27 +15,60 @@
 
 
 #nav #logo {
-    height: 100%;
-    width: fit-content;
+    height:100%;
+    width: 120px;
+    
     /* background: #ad9393; */
+
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
+
     padding: 10px;
+    position: relative;
     
     
+    
+}
+
+#nav #logo #logo-wrapper{
+    height: 100%;
+    position: relative;
+    /* background: #000; */
+    /* transform: translate(0,-120%); */
 }
 
 
 #nav #logo svg{
     flex-shrink: 0;
     position: relative;
-    height: 90%;
+    height: 100%;
     width: 100%;
+   
 }
 
 #nav #links{
     display: flex;
+    align-items: center;
+    /* background: #ffffff; */
+    overflow: hidden;
+    width: 35%;
     
     gap: 60px;
 }
+
+#nav #icon-wrapper{
+    padding: 10px 15px;
+    
+    border-radius: 15px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    /* background: #ffffff; */
+    
+    
+    
+    gap: 60px;
+}
+
