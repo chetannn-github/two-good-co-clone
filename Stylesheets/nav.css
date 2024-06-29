@@ -1,0 +1,12 @@
+#nav{
+    height: 120px;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #34359b;
+}
