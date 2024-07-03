@@ -1,14 +1,14 @@
 #nav{
     height: 120px;
     width: 100%;
-    position: fixed;
+    position:fixed;
     overflow: hidden;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-
+mix-blend-mode: hard-light;
     /* background: #34359b; */
 }
 
@@ -52,14 +52,14 @@
     align-items: center;
     /* background: #ffffff; */
     overflow: hidden;
-    width: 35%;
+    width: 45%;
     
     gap: 60px;
 }
 
 #nav #icon-wrapper{
     padding: 10px 15px;
-    
+    width: fit-content;
     border-radius: 15px;
     background-color: white;
 
