@@ -7,7 +7,7 @@
 A simple clone of the Two Good co landing page using HTML, CSS, JavaScript, GSAP, and Locomotive Scroll. This project demonstrates modern web design techniques and smooth animations.
 
 ## Preview
-![REJOUICE Clone Preview](./assests/preview.png)
+![Preview](./assets/preview.png)
 
 
 ## Installation
